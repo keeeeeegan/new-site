@@ -1,0 +1,170 @@
+.page-content {
+	padding: 100px 40px 40px 40px;
+	width: 100%;
+
+	@media (max-width: $break-sm-max) {
+		padding-top: 40px;
+	}
+
+	.wrapper {
+		max-width: 800px;
+	}
+
+	img {
+		max-width: 100%;
+	}
+}
+
+.post-title {
+	font-family: $font-secondary;
+	font-weight: 300;
+	text-transform: uppercase;
+						/*
+							&:after {
+								content: '';
+								display: block;
+								border: solid $color-rust;
+								border-width: 0;
+								border-top-width: 2px;
+								margin-top: 10px;
+								max-width: 20px;
+							}
+						*/
+}
+
+/*
+.contact-form {
+	text-align: right;
+	width: 100%;
+
+	.input-container {
+		clear:both;
+	}
+
+	input,
+	textarea,
+	.button {
+		color: #333;
+		background: transparent;
+		border: solid 1px #333;
+		padding: 9px 12px;
+		font-size: 18px;
+		display:block;
+		margin-bottom: 10px;
+		font-family: $font-primary;
+		font-weight: normal;
+		float: left;
+	}
+
+	textarea {
+		height: 125px;
+		text-align: left;
+	}
+
+	input {
+		text-align: left;
+	}
+
+	input::-webkit-input-placeholder,
+	textarea::-webkit-input-placeholder  {
+		color: #333;
+		text-align: left;
+	}
+
+	textarea::-webkit-input-placeholder  {
+		text-align: left;
+	}
+
+	input:-moz-placeholder,
+	textarea:-moz-placeholder {
+		color: #333;
+	}
+
+	input::-moz-placeholder,
+	textarea::-moz-placeholder {
+		color: #333;
+	}
+
+	input:-ms-input-placeholder,
+	textarea:-ms-input-placeholder {
+		color: #333;
+	}
+
+	.button {
+		font-family: $font-secondary;
+		background: $color-blue;
+		font-weight: 500;
+		font-size: 20px;
+		text-transform: uppercase;
+		width: 82px;
+		text-align: left;
+		color: #fff;
+		padding: 2px 8px;
+		cursor: pointer;
+		border: none;
+	}
+}
+*/
+
+.portfolio-image {
+  width: 100%;
+  text-align: center;
+  padding-top: 75px;
+
+  img {
+    margin: 0 auto;
+    // width: 300px;
+    max-width: 100%;
+  }
+
+	&.small {
+		img {
+			width: 45%;
+		}
+	}
+
+  &.wide {
+    img {
+    	width: 100%;
+    }
+  }
+}
+
+img.center {
+	display: block;
+	margin: 0 auto;
+}
+
+a.cta-link:link,
+a.cta-link:visited,
+a.cta-link:active {
+	font-family: $font-secondary;
+	background: $color-blue;
+	font-weight: 500;
+	font-size: 20px;
+	text-transform: uppercase;
+	width: 82px;
+	text-align: right;
+	padding: 3px 11px;
+	cursor: pointer;
+	border: none;
+	text-decoration: none;
+	color: #fff;
+	transition: background-color 0.1s;
+
+	&:before {
+		content: "\f0c1";
+		font-family: FontAwesome;
+		font-style: normal;
+    font-weight: 100;
+    text-decoration: inherit;
+    font-size: 17px;
+    padding: 0 6px 0 0;
+    display: inline-block;
+    margin-left: -3px;
+	}
+}
+
+a.cta-link:hover {
+	background-color: $color-blue-dark;
+}

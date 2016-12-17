@@ -1,0 +1,173 @@
+footer {
+	display: none;
+
+	@media (max-width: $break-sm-max) {
+		display: block;
+	}
+
+	background: $color-rust;
+	color: #fff;
+
+	// background: #e8e3d6;
+	// color: #333;
+
+	padding: 40px;
+
+	h2 {
+		clear: both;
+		font-size: 17px;
+		text-transform: uppercase;
+		font-family: $font-secondary;
+		font-size: 20px;
+		margin-top: 0;
+	}
+
+	.copyright {
+		float: left;
+		margin: 0;
+	}
+
+	.contact-form-wrapper {
+		margin-bottom: 40px;
+
+		&:after {
+			content: '';
+			display: block;
+			clear: both;
+			height: 0;
+			width: 100%;
+		}
+	}
+
+
+	.contact-form {
+		text-align: right;
+		width: 100%;
+
+		.input-container {
+			clear:both;
+		}
+
+		input,
+		textarea,
+		.button {
+			color: #fff;
+			background: transparent;
+			border: solid 1px #fff;
+			padding: 9px 12px;
+			font-size: 14px;
+			display:block;
+			margin-bottom: 10px;
+			width: 100%;
+			box-sizing: border-box;
+			font-family: $font-primary;
+			font-weight: normal;
+			float: right;
+	  }
+
+		textarea {
+			height: 125px;
+			text-align: left;
+		}
+
+		input {
+			text-align: left;
+		}
+
+		input::-webkit-input-placeholder,
+	  textarea::-webkit-input-placeholder  {
+	    color: #fff;
+		  text-align: left;
+	  }
+
+		textarea::-webkit-input-placeholder  {
+	    text-align: left;
+	  }
+
+	  input:-moz-placeholder,
+	  textarea:-moz-placeholder { /* Firefox 18- */
+	    color: #fff;
+	  }
+
+	  input::-moz-placeholder,
+	  textarea::-moz-placeholder {  /* Firefox 19+ */
+	    color: #fff;
+	  }
+
+	  input:-ms-input-placeholder,
+	  textarea:-ms-input-placeholder {
+	    color: #fff;
+	  }
+
+	  .button {
+			font-family: $font-secondary;
+			background: #1f1f1f;
+			font-weight: 500;
+			font-size: 20px;
+			text-transform: uppercase;
+			width: 82px;
+			text-align: left;
+			color: #fff;
+			padding: 2px 8px;
+			cursor: pointer;
+			border: none;
+			float: left;
+	  }
+
+		.button:hover {
+			background-color: #E8B22B;
+		}
+
+	}
+
+
+}
+
+.social-icons {
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+  .social-icons li {
+    display: inline-block; }
+  .social-icons a:link,
+  .social-icons a:active,
+  .social-icons a:visited,
+  .social-icons a:hover {
+    color: #fff;
+    font-size: 18px;
+    margin: 0 5px 10px 0px;
+    background: #1f1f1f;
+    display: inline-block;
+    width: 30px;
+    height: 0;
+    padding: 30px 0 0 0;
+    overflow: hidden;
+    border-radius: 60px;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 50%; }
+  .social-icons a:hover {
+    background-color: #E8B22B; }
+  .social-icons li.forrst a {
+    background-image: url("../img/social/icon_forrst.png"); }
+  .social-icons li.twitter a {
+    background-image: url("../img/social/icon_twitter.png"); }
+  .social-icons li.facebook a {
+    background-image: url("../img/social/icon_facebook.png"); }
+  .social-icons li.techrangers a {
+    background-image: url("../img/social/icon_tr_rb.png"); }
+  .social-icons li.linkedin a {
+    background-image: url("../img/social/icon_linkedin.png"); }
+  .social-icons li.googleplus a {
+    background-image: url("../img/social/icon_googleplus.png"); }
+  .social-icons li.instagram a {
+    background-image: url("../img/social/icon_instagram.png"); }
+  .social-icons li.email a {
+    background-image: url("../img/social/icon_gmail.png"); }
+  .social-icons li.resume a {
+    background-image: url("../img/social/icon_resume.png"); }
+  .social-icons li.flickr a {
+    background-image: url("../img/social/icon_flickr.png"); }

@@ -1,0 +1,18 @@
+---
+layout: portfolio-page
+title:  "Misc"
+tags: [design]
+contributions: [design]
+date: 2016-12-16 23:17:42
+permalink: work/misc
+published: true
+
+---
+
+<!-- <div class="portfolio-image">
+	<img src="/img/kb-logo-draft-4.png" alt="" />
+</div> -->
+
+<div class="portfolio-image">
+	<img src="/img/kb-logo-draft-4-dark.png" alt="" />
+</div>
