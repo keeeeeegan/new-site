@@ -5,14 +5,15 @@ link_text: Work
 permalink: /work/
 ---
 
-<ul class="post-list">
+<ul class="work-list">
   {% for post in site.work %}
     <li>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-      <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
+      <a class="work-item-wrapper" href="{{ post.url | prepend: site.baseurl }}">
+        <span class="work-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="work-title">
+          {{ post.title }}
+        </span>
+      </a>
     </li>
   {% endfor %}
 </ul>

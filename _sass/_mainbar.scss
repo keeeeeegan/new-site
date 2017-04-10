@@ -2,9 +2,10 @@
 	background: #111 url('../img/chicago-lasalle-street-bridge-background.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	color: #fff;
 	font-family: $font-secondary;
-	padding-top: 100px;
+	padding-top: 60px;
 	text-align: right;
 	width: $bar-width;
 	padding-right: 40px;
@@ -29,20 +30,21 @@
 
 		@media (max-width: $break-sm-max) {
 			float: left;
+			width: auto;
+			margin: 0;
+			padding-top: 25px;
+			padding-left: 30px;
 		}
 
 		a:link {
-			background: url('../img/kb-logo-draft-4.png');
-			padding-top: 153px;
-			background-repeat: no-repeat;
-			background-position: 100% 0;
-			background-size: 115px;
 			display: block;
 			text-decoration: none;
-			font-weight: 100;
-			font-size: 22px;
+			font-size: 40px;
 			font-family: $font-secondary;
-			font-weight: 700;
+			font-weight: 300;
+	    max-width: 40%;
+	    text-align: right;
+	    float: right;
 
 			@media (max-width: $break-sm-max) {
 				float: left;
@@ -51,7 +53,7 @@
 				background-size: contain;
 				padding-bottom: 40px;
 				display: inline-block;
-				padding-left: 110px;
+				padding: 0;
 			}
 		}
 
