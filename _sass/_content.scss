@@ -10,8 +10,37 @@
 		max-width: 800px;
 	}
 
+	.content-right {
+		text-align: right;
+	}
+
 	img {
 		max-width: 100%;
+
+		&.align-right {
+			float: right;
+			margin: 0 0 20px 20px;
+		}
+		&.shadow {
+			box-shadow: -4px 4px 0 $color-rust;
+		}
+		&.circle {
+			border-radius: 50%;
+		}
+	}
+
+	figure {
+		max-width: 100%;
+
+		&.align-right {
+			float: right;
+			margin: 0 0 20px 20px;
+		}
+
+		figcaption {
+			font-size: 11px;
+			color: #8c8c8c;
+		}
 	}
 }
 

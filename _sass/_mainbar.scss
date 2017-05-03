@@ -13,6 +13,7 @@
 
 	@media (max-width: $break-sm-max) {
 		min-height: 130px;
+		padding-right: 30px;
 		padding-top: 0;
 		width: 100%;
 	}
@@ -30,7 +31,7 @@
 
 		@media (max-width: $break-sm-max) {
 			float: left;
-			width: auto;
+			width: 25%;
 			margin: 0;
 			padding-top: 25px;
 			padding-left: 30px;

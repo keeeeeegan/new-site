@@ -3,6 +3,7 @@ layout: page
 title: Work
 link_text: Work
 permalink: /work/
+published: false
 ---
 
 <ul class="work-list">

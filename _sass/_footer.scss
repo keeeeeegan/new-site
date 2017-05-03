@@ -25,6 +25,13 @@ footer {
 	.copyright {
 		float: left;
 		margin: 0;
+
+		@media (max-width: $break-xs-max) {
+			float: none;
+			display: block;
+			width: 100%;
+			text-align: center;
+		}
 	}
 
 	.contact-form-wrapper {
@@ -127,7 +134,16 @@ footer {
   float: right;
   margin: 0;
   padding: 0;
-  list-style-type: none; }
+  list-style-type: none;
+
+	@media (max-width: $break-xs-max) {
+		float: none;
+		display: block;
+		width: 100%;
+		text-align: center;
+		padding-top: 20px;
+	}
+}
   .social-icons li {
     display: inline-block; }
   .social-icons a:link,
