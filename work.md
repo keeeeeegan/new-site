@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Work
-link_text: Work
 permalink: /work/
-published: false
+published: true
 ---
 
 <ul class="work-list">
