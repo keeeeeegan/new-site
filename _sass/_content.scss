@@ -1,6 +1,7 @@
 .page-content {
 	padding: 0;
 	width: 100%;
+	position: relative;
 
 	@media (max-width: $break-sm-max) {
 		padding-top: 40px;
@@ -213,3 +214,33 @@ a.cta-link:active {
 a.cta-link:hover {
 	background-color: $color-blue-dark;
 }
+
+
+// .photo-grid {
+// 	margin: 0;
+// 	padding: 0;
+// 	width: 100%;
+// 	overflow: auto;
+// 	clear:both;
+// 	line-height: 0;
+// 	position: absolute;
+// 	bottom: 0;
+//
+// 	&:after {
+// 		display: block;
+// 		height: 0;
+// 		overflow: hidden;
+// 		clear: both;
+// 	}
+//
+// 	.photo-grid-photo {
+// 		width: 25%;
+// 		height: 100%;
+// 		overflow: hidden;
+// 		float: left;
+//
+// 		img {
+// 			width: 100%;
+// 		}
+// 	}
+// }
