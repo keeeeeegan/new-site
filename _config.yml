@@ -1,5 +1,5 @@
 # Site settings
-title: Keegan Berry
+title: Keegan Berry - Web Developer in Orlando Florida
 email: me@keeganberry.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -22,12 +22,8 @@ ga_property: "UA-26787049-1"
 # Build settings
 markdown: kramdown
 
+# Collections (work)
 collections:
   work:
     output: true
     permalink: /work/:path/
-
-#		<li><a href="http://twitter.com/keegan">Twitter @keegan</a></li>
-#		<li><a href="http://instagram.com/keeganberry">Instagram</a></li>
-#		<li><a href="http://www.linkedin.com/pub/keegan-berry/13/8a7/552">LinkedIn</a></li>
-#		<li><a href="https://www.flickr.com/photos/superdeathsquid/">Flickr</a></li>

@@ -2,7 +2,7 @@
 layout: page
 title: Work
 permalink: /work/
-published: true
+published: false
 ---
 
 <ul class="work-list">

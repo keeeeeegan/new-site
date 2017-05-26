@@ -7,8 +7,7 @@ tags: [design, print design, logo design]
 contributions: [design, logo design, branding, print design]
 date: 2016-04-28 23:17:42
 permalink: work/talley-yarhouse-wedding
-published: true
-
+published: false
 ---
 
 I worked with Nina and Aaron to create branding for their wedding, including an invitation design, a logo design (incorporating illustrations of their faces), and table ornaments (mini iron-on flags).

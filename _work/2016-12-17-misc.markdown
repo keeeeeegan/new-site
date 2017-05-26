@@ -5,8 +5,7 @@ tags: [design]
 contributions: [design]
 date: 2016-12-16 23:17:42
 permalink: work/misc
-published: true
-
+published: false
 ---
 
 <!-- <div class="portfolio-image">

@@ -11,7 +11,7 @@ permalink: work/cloudspace-redesign
 categories: portfolio
 portfolio_image: "/img/portfolio/cloudspace-screenshot.jpg"
 display_order: 8
-
+published: false
 ---
 
 I worked with company partners to iterate on the design of homepage. Wireframes/copy was provided. I designed and sliced PSDs where necessary, and utilized HTML/CSS/JavaScript where possible.
