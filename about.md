@@ -5,12 +5,12 @@ link_text: About
 permalink: /about/
 ---
 
-I'm a web developer and designer working for the <a href="https://brand.ucf.edu/about-ucf-marketing/">Marketing team at the University of Central Florida</a> in Orlando.
-
-<figure class="align-right content-right" style="max-width:175px;">
-  <img src="/img/ramen.png" alt=""/>
-  <figcaption>Myself, pictured here, enjoying some ramen.</figcaption>
+<figure class="align-right content-right">
+  <img src="/img/me-office.png" style="max-width:200px;border-radius:50%" alt="My face"/>
+  <!-- <figcaption>Myself, pictured here, enjoying some ramen.</figcaption> -->
 </figure>
+
+I'm a web developer and designer working for the <a href="https://brand.ucf.edu/about-ucf-marketing/">Marketing team at the University of Central Florida</a> in Orlando.
 
 I generally work with JavaScript, HTML, and CSS when working on websites and user interfaces. I also work with Adobe products, including Illustrator and Photoshop, to create designs, illustrations, and print media. While meeting clients' needs, I always strive to learn something new, have fun, and improve my skills in creating robust, intuitive, and eye-catching work.
 

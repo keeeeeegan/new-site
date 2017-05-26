@@ -48,17 +48,22 @@
 	font-family: $font-secondary;
 	font-weight: 300;
 	text-transform: uppercase;
-						/*
-							&:after {
-								content: '';
-								display: block;
-								border: solid $color-rust;
-								border-width: 0;
-								border-top-width: 2px;
-								margin-top: 10px;
-								max-width: 20px;
-							}
-						*/
+}
+
+.script {
+		color: $color-rust;
+    font-family: 'reklame_script_regular_demoRg', helvetica neue, arial;
+    padding-bottom: 20px;
+    font-weight: 100;
+    font-size: 98px;
+    // margin-top: -5px !important;
+		line-height: 1;
+    // text-shadow: 1px 1px 0 #16191D;
+    // margin-bottom: -32px;
+}
+
+.section-title.script {
+	margin: 10px 0 15px 0;
 }
 
 /*
