@@ -66,6 +66,16 @@
 	margin: 10px 0 15px 0;
 }
 
+img.about-me-pic {
+	max-width: 200px;
+	border-radius:50%;
+	
+	@media (max-width: $break-xs-max) {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+}
+
 /*
 .contact-form {
 	text-align: right;

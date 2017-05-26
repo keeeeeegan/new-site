@@ -6,8 +6,7 @@ permalink: /about/
 ---
 
 <figure class="align-right content-right">
-  <img src="/img/me-office.png" style="max-width:200px;border-radius:50%" alt="My face"/>
-  <!-- <figcaption>Myself, pictured here, enjoying some ramen.</figcaption> -->
+  <img src="/img/me-office.png" class="about-me-pic" alt="My face"/>
 </figure>
 
 I'm a web developer and designer working for the <a href="https://brand.ucf.edu/about-ucf-marketing/">Marketing team at the University of Central Florida</a> in Orlando.
