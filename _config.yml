@@ -1,10 +1,13 @@
 # Site settings
-title: Keegan Berry - Web Developer in Orlando Florida
+title: Keegan Berry
 email: me@keeganberry.com
+short_description: Web Developer in Orlando, Florida
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A full-stack developer with over five years of professional experience in all stages of website
+  and web application design, development, and production. Dedicated, versatile team player with
+  a strong foundation in front-end development and experience in back-end development including
+  the maintenance of legacy websites and systems. Passionate about learning new languages and
+  technologies while keeping current with latest design trends.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "/" # the base hostname & protocol for your site
 
