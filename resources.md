@@ -2,6 +2,10 @@
 published: false
 ---
 
+<link href="https://fonts.googleapis.com/css?family=Chango|Oswald:300,400,700|Roboto:500,300,700,400|Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+<link rel="stylesheet" type="text/css" media="all" href="/fonts/reklamescript_demo_macroman/stylesheet.css" />
+
+
 <figure class="align-right content-right" style="max-width:175px;">
   <img src="/img/ramen.png" alt=""/>
   <figcaption>Myself, pictured here, enjoying some ramen.</figcaption>
