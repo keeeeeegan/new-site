@@ -84,6 +84,15 @@ h1#hello {
 	font-family: $font-secondary;
 	font-weight: 500;
 	font-size: 34px;
+	margin-top: 0;
+}
+
+.post-content {
+	h2 {
+		font-family: $font-secondary;
+		font-weight: 500;
+		font-size: 28px;
+	}
 }
 
 /*
