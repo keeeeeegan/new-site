@@ -46,7 +46,14 @@
 			color: #8c8c8c;
 		}
 	}
+
+	.caption {
+		font-size: 11px;
+		color: #8c8c8c;
+	}
 }
+
+
 
 .post-title {
 	font-family: $font-secondary;
@@ -238,31 +245,33 @@ a.cta-link:hover {
 }
 
 
-// .photo-grid {
-// 	margin: 0;
-// 	padding: 0;
-// 	width: 100%;
-// 	overflow: auto;
-// 	clear:both;
-// 	line-height: 0;
-// 	position: absolute;
-// 	bottom: 0;
-//
-// 	&:after {
-// 		display: block;
-// 		height: 0;
-// 		overflow: hidden;
-// 		clear: both;
-// 	}
-//
-// 	.photo-grid-photo {
-// 		width: 25%;
-// 		height: 100%;
-// 		overflow: hidden;
-// 		float: left;
-//
-// 		img {
-// 			width: 100%;
-// 		}
-// 	}
-// }
+.photo-grid {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow: auto;
+	clear:both;
+	// position: absolute;
+	// bottom: 0;
+
+	&:after {
+		display: block;
+		height: 0;
+		overflow: hidden;
+		clear: both;
+	}
+
+	.photo-grid-photo {
+		width: 25%;
+
+		@media (max-width: $break-sm-max) {
+			width: 50%;
+		}
+		overflow: hidden;
+		float: left;
+
+		img {
+			width: 100%;
+		}
+	}
+}

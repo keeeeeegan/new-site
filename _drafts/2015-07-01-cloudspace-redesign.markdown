@@ -16,7 +16,8 @@ published: false
 
 I worked with company partners to iterate on the design of homepage. Wireframes/copy was provided. I designed and sliced PSDs where necessary, and utilized HTML/CSS/JavaScript where possible.
 
-<p class="links">
-  <span class="fa fa-link"></span> <a href="http://cloudspace.com">See live site</a>
-  <!-- <a href="http://placeholder.keeganberry.com/stuff/cloudspace-redesign-1">See live page</a> -->
-</p>
+<div class="portfolio-image wide">
+	<img src="http://keeganberry.com/img/portfolio/cloudspace-screenshot.jpg" />
+</div>
+
+<a href="http://cloudspace.com" class="link-icon cta-link">See live site</a>
