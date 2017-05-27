@@ -70,6 +70,8 @@
 	margin: 10px 0 15px 0;
 }
 
+
+
 img.about-me-pic {
 	max-width: 235px;
 	border-radius:50%;
@@ -84,10 +86,13 @@ h1#hello {
 	font-family: $font-secondary;
 	font-weight: 500;
 	font-size: 34px;
-	margin-top: 0;
 }
 
 .post-content {
+	figure {
+		margin: 0;
+	}
+
 	h2 {
 		font-family: $font-secondary;
 		font-weight: 500;
