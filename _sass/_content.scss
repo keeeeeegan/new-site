@@ -1,9 +1,13 @@
 .page-content {
 	padding: 60px 40px 40px 40px;
 	width: 100%;
+	background: url('/img/octobackground.jpg');
+	background-size: 500px;
+	background-repeat: no-repeat;
 
 	@media (max-width: $break-sm-max) {
 		padding-top: 40px;
+		// background-size: contain;
 	}
 
 	.wrapper {
@@ -67,13 +71,19 @@
 }
 
 img.about-me-pic {
-	max-width: 200px;
+	max-width: 235px;
 	border-radius:50%;
 
 	@media (max-width: $break-xs-max) {
 		max-width: 100%;
 		margin: 0 auto;
 	}
+}
+
+h1#hello {
+	font-family: $font-secondary;
+	font-weight: 500;
+	font-size: 34px;
 }
 
 /*

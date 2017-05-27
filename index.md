@@ -3,7 +3,11 @@ layout: home
 title: Welcome
 ---
 
-<h2 class="section-title script">Hey there</h2>
+<figure>
+  <img src="/img/me-office.png" class="about-me-pic" alt="My face"/>
+</figure>
+
+# Hello
 
 <p class="bigtext">I'm Keegan Berry — a web developer out of Orlando, Florida.</p>
 
