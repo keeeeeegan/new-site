@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="portfolio-page">
 
   <header class="post-header">
 		<a class="more" href="/work">&laquo; Work</a>
@@ -10,6 +10,30 @@ layout: default
 
   <article class="post-content">
     {{ content }}
+
+
+    {% if page.contributions %}
+    <aside class="contributions">
+    <h2>My Contributions</h2>
+    <ul>
+    {% for c in page.contributions %}
+    <li>{{ c }}</li>
+    {% endfor %}
+    </ul>
+    </aside>
+    {% endif %}
+
+    {% if page.tags %}
+    <aside class="tags">
+    <h2>Tags</h2>
+    <ul>
+    {% for t in page.tags %}
+    <li>{{ t }}</li>
+    {% endfor %}
+    </ul>
+    </aside>
+    {% endif %}
+
   </article>
 
 </div>

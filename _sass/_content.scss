@@ -45,6 +45,22 @@
 			font-size: 11px;
 			color: #8c8c8c;
 		}
+
+		&.portfolio-image {
+			padding-top: 10px;
+			padding-bottom: 15px;
+		}
+		&.portfolio-image.bordered img {
+			padding: 10px;
+			margin: 10px 0 5px 0;
+	    	border: solid #efefef 1px;
+
+	    background: rgba(255, 255, 255, 0.3);
+	    // box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+		}
+		&.portfolio-image.bordered figcaption {
+			text-align: left;
+		}
 	}
 
 	.caption {
@@ -106,6 +122,51 @@ h1#hello {
 		font-size: 28px;
 	}
 }
+
+.page-content .portfolio-page {
+	aside {
+		h2 {
+			font-size: 1em;
+	    text-transform: uppercase;
+	    color: #333;
+	    margin-bottom: 0;
+	    border-bottom: 1px solid #333;
+	    padding-bottom: 4px;
+	    margin-bottom: 10px;
+			margin-top: 30px;
+		}
+
+		ul {
+			margin: 0;
+			padding: 0;
+
+			li {
+				list-style-type: none;
+		    display: inline-block;
+		    padding: 1px 7px;
+		    border-radius: 5px;
+		    font-size: .75em;
+		    background: $color-rust;
+		    color: #fff;
+			}
+		}
+	}
+}
+
+.portfolio-thumbnails {
+
+}
+
+.portfolio-thumbnail {
+	display: inline-block;
+	width: 49%;
+	overflow: hidden;
+	padding-top: 10vw;
+	background-position: 50% 50%;
+	background-size: cover;
+	border: solid #efefef 1px;
+}
+
 
 /*
 .contact-form {

@@ -9,7 +9,7 @@ contributions: [html, css, jekyll, "responsive design"]
 date:   2015-07-06 23:17:42
 permalink: work/cloudspace-redesign
 categories: portfolio
-portfolio_image: "/img/portfolio/cloudspace-screenshot.jpg"
+portfolio_image: "/img/portfolio/misc/cloudspace-screenshot.jpg"
 display_order: 8
 published: false
 ---

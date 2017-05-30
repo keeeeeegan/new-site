@@ -7,12 +7,17 @@ tags: [frontend, backend, design, implementation, ops]
 contributions: [php, html, css, javascript, design, flash, actionscript]
 date: 2015-07-06 23:17:42
 permalink: work/materia
-portfolio_image: "/img/portfolio/materia-screenshot.jpg"
-categories: portfolio
+portfolio_image: "/img/portfolio/misc/materia-screenshot.jpg"
+categories: work
 display_order: 5
-published: false
+published: true
 ---
 
 Online learning and educational game system by University of Central Florida. It is a Learning Management System that allows faculty to create and manage educational games, as well as track student progress and participation. Materia and its games are built in-house by the UCF development team I was a part of, New Media.
 
 I worked with team members to help design and build parts of the Materia system, including interactive educational games.
+
+<figure class="portfolio-image bordered">
+  <img src="/img/portfolio/misc/materia-home.png" alt="Materia homepage"/>
+  <figcaption>Materia homepage</figcaption>
+</figure>

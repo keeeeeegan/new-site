@@ -7,18 +7,24 @@ tags: [frontend, design, implementation, wordpress, mobile first]
 contributions: [design, php, "wordpress development", responsive design, bourbon.io]
 date: 2015-12-03 23:17:42
 permalink: work/nass-site
-categories: [portfolio]
-portfolio_image: "/img/portfolio/nass-screenshot.jpg"
+categories: work
+portfolio_image: "/img/portfolio/misc/nass-screenshot.jpg"
 display_order: 9
-published: false
+published: true
 
 ---
 
 Worked with company executive to create promotional website for two sister companies. Clean design patterns and responsive techniques were used to make the site accessible and available on any device. Integrated job listing functionality allows human resources representatives to add job listings as needed from the administration interface. Contact form sends email to specified address while also storing message in the database for archival purposes.
 
-<p class="links">
-  <span class="fa fa-link"></span> <a href="http://nassusa.com">See NASS website</a>
-</p>
-<p>
-  <span class="fa fa-link"></span> <a href="http://napcusa.com">See NAPC website</a>
-</p>
+<figure class="portfolio-image bordered">
+  <img src="/img/portfolio/misc/nass-home.png" alt="NASS homepage"/>
+  <figcaption>NASS homepage</figcaption>
+</figure>
+
+<figure class="portfolio-image bordered">
+  <img src="/img/portfolio/misc/napc-home.png" alt="NAPC homepage"/>
+  <figcaption>NAPC homepage</figcaption>
+</figure>
+
+<a href="http://nassusa.com" class="link-icon cta-link">Visit NASS website</a>
+<a href="http://napcusa.com" class="link-icon cta-link">Visit NAPC website</a>

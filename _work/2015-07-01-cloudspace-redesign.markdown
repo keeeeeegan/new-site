@@ -2,21 +2,30 @@
 layout: portfolio-page
 title:  "Cloudspace Redesign"
 banner: "cloudspace"
-thumbnail: "../img/portfolio/cloudspace-screenshot.jpg"
+thumbnail: "cloudspace-screenshot.jpg"
 blurb: "New single-page website for local web-development company."
 tags: [frontend, design, implementation, graphics]
 contributions: [html, css, jekyll, "responsive design"]
 date:   2015-07-06 23:17:42
 permalink: work/cloudspace-redesign
-categories: portfolio
-portfolio_image: "/img/portfolio/cloudspace-screenshot.jpg"
+categories: work
+portfolio_image: "/img/portfolio/misc/cloudspace-screenshot.jpg"
 display_order: 8
-published: false
+published: true
 ---
 
 I worked with company partners to iterate on the design of homepage. Wireframes/copy was provided. I designed and sliced PSDs where necessary, and utilized HTML/CSS/JavaScript where possible.
 
-<p class="links">
-  <span class="fa fa-link"></span> <a href="http://cloudspace.com">See live site</a>
-  <!-- <a href="http://placeholder.keeganberry.com/stuff/cloudspace-redesign-1">See live page</a> -->
-</p>
+<figure class="portfolio-image bordered">
+  <img src="/img/portfolio/misc/cloudspace-home.png" alt="Cloudspace homepage"/>
+  <figcaption>Cloudspace homepage</figcaption>
+</figure>
+
+<figure class="portfolio-image bordered">
+  <img src="/img/portfolio/misc/cloudspace-feedback.png" alt="Farther down Cloudspace's homepage"/>
+  <figcaption>Farther down Cloudspace's homepage</figcaption>
+</figure>
+
+
+
+<a class="link-icon cta-link" href="http://cloudspace.com">See current Cloudspace.com</a>

@@ -8,8 +8,8 @@ tags: [frontend, design, implementation]
 contributions: [bootstrap, html, css, "responsive design"]
 date:   2015-07-06 23:17:42
 permalink: work/nerdapalooza
-categories: portfolio
-portfolio_image: "/img/portfolio/nerdapalooza-screenshot.jpg"
+categories: work
+portfolio_image: "/img/portfolio/misc/nerdapalooza-screenshot.jpg"
 display_order: 7
 published: false
 ---

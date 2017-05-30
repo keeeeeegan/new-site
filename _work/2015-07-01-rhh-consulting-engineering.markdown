@@ -8,16 +8,19 @@ tags: [frontend, design, implementation]
 contributions: [wordpress, php, html, css]
 date:   2015-07-06 23:17:42
 permalink: work/rhh-consulting-engineering
-categories: portfolio
-portfolio_image: "/img/portfolio/rhh-screenshot.jpg"
+categories: work
+portfolio_image: "/img/portfolio/misc/rhh-screenshot.jpg"
 display_order: 6
-published: false
+published: true
 ---
 
 This website was built as a Wordpress template. The design was a recreation of the client's lost original design. I recreated the design using Adobe Photoshop.
 
-The site features an audio introduction, which allows the company owner to introduce himself and the site. I implented play controls so that auto-play can be paused or muted (the mute option is saved in a JavaScript cookie).
+The site originally featured an audio introduction, which allowed the company owner to introduce himself and the site. I implemented play controls so that auto-play can be paused or muted (the mute option was saved in a JavaScript cookie).
 
-<p class="links">
-  <span class="fa fa-link"></span> <a href="http://rhhconsultingengineering.com/">See live website</a>
-</p>
+<figure class="portfolio-image bordered">
+  <img src="/img/portfolio/misc/rhh-home.png" alt="RHH Consulting &amp; Engineering homepage"/>
+  <figcaption>RHH Consulting &amp; Engineering homepage</figcaption>
+</figure>
+
+<a class="link-icon cta-link" href="http://rhhconsultingengineering.com/">Visit RHH Consulting Engineering</a>

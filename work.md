@@ -2,14 +2,14 @@
 layout: page
 title: Work
 permalink: /work/
-published: false
+published: true
 ---
 
+<!--
 <ul class="work-list">
   {% for post in site.work %}
     <li>
       <a class="work-item-wrapper" href="{{ post.url | prepend: site.baseurl }}">
-        <span class="work-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         <span class="work-title">
           {{ post.title }}
         </span>
@@ -17,5 +17,6 @@ published: false
     </li>
   {% endfor %}
 </ul>
+-->
 
-<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+{% include portfolio-list.html %}
