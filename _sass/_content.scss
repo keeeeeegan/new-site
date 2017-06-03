@@ -12,6 +12,10 @@
 
 	.wrapper {
 		max-width: 800px;
+
+		@media (max-width: $break-sm-max) {
+			max-width: 100%;
+		}
 	}
 
 	.content-right {
@@ -35,10 +39,16 @@
 
 	figure {
 		max-width: 100%;
+		box-sizing: border-box;
 
 		&.align-right {
 			float: right;
 			margin: 0 0 20px 20px;
+		}
+
+		img {
+			box-sizing: border-box;
+			max-width: 100%;
 		}
 
 		figcaption {
@@ -53,7 +63,7 @@
 		&.portfolio-image.bordered img {
 			padding: 10px;
 			margin: 10px 0 5px 0;
-	    	border: solid #efefef 1px;
+	    border: solid #efefef 1px;
 
 	    background: rgba(255, 255, 255, 0.3);
 	    // box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
@@ -335,4 +345,52 @@ a.cta-link:hover {
 			width: 100%;
 		}
 	}
+}
+
+.speech-bubb {
+	// background: #0e0d12;
+	background: url("/img/speech-bubb-start.png") 0 0 no-repeat
+		, url("/img/speech-bubb-end.png") 100% 0 no-repeat;
+	background-size: contain;
+  color: #fff;
+  font-family: "Oswald", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1.25em;
+  border-radius: 10px;
+  margin-left: 110px;
+  position: relative;
+  padding: .75em .75em .75em 2em;
+  font-weight: 100;
+  margin-top: 30px;
+	margin-bottom: 50px;
+  width: calc(100%-110px);
+  box-sizing: border-box;
+
+	@media (max-width: $break-sm-max) {
+		display: none;
+	}
+
+	&::before {
+		content: ' ';
+		display: block;
+		position:absolute;
+		width: 100px;
+		height: 100px;
+		left: -110px;
+		overflow: hidden;
+		background: transparent url('/img/illustrated-face.png') no-repeat;
+		background-size: contain;
+	}
+
+	.title {
+		font-size: .7em;
+		color: $color-rust;
+		font-weight: bold;
+		font-style: italic;
+		display: block;
+	}
+
+	p {
+		margin: 0 0 .5em 0;
+	}
+
 }

@@ -6,7 +6,7 @@ blurb: "Online learning game management built in FuelPHP."
 tags: [frontend, backend, design, implementation, ops]
 contributions: [php, html, css, javascript, design, flash, actionscript]
 date: 2015-07-06 23:17:42
-permalink: work/materia
+permalink: work/materia/
 portfolio_image: "/img/portfolio/misc/materia-screenshot.jpg"
 categories: work
 display_order: 5

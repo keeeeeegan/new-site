@@ -5,7 +5,7 @@ permalink: /work/
 published: true
 ---
 
-<!--
+
 <ul class="work-list">
   {% for post in site.work %}
     <li>
@@ -17,6 +17,3 @@ published: true
     </li>
   {% endfor %}
 </ul>
--->
-
-{% include portfolio-list.html %}

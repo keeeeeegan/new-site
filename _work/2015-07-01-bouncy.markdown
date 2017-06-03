@@ -7,7 +7,7 @@ blurb: "Vanilla Object-Oriented JavaScript challenge."
 tags: [frontend]
 contributions: ["vanilla javascript"]
 date: 2015-07-06 23:17:42
-permalink: work/bouncy-divs
+permalink: work/bouncy-divs/
 categories: [portfolio-unlisted]
 portfolio_image: "custom-banner"
 banner: "bouncy-divs"

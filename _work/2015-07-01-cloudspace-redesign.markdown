@@ -7,7 +7,7 @@ blurb: "New single-page website for local web-development company."
 tags: [frontend, design, implementation, graphics]
 contributions: [html, css, jekyll, "responsive design"]
 date:   2015-07-06 23:17:42
-permalink: work/cloudspace-redesign
+permalink: work/cloudspace-redesign/
 categories: work
 portfolio_image: "/img/portfolio/misc/cloudspace-screenshot.jpg"
 display_order: 8

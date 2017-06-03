@@ -7,7 +7,7 @@ blurb: "Travel booking site integrating with social network sharing."
 tags: [frontend, backend, implementation]
 contributions: [php, fuelphp, html, css]
 date:   2015-07-06 23:17:42
-permalink: work/inspire-travel
+permalink: work/inspire-travel/
 categories: work
 portfolio_image: "/img/portfolio/misc/portfolio-inspiretravel-full.png"
 display_order: 3

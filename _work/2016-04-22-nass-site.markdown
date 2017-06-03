@@ -6,7 +6,7 @@ blurb: "Website for local engineering contracting company."
 tags: [frontend, design, implementation, wordpress, mobile first]
 contributions: [design, php, "wordpress development", responsive design, bourbon.io]
 date: 2015-12-03 23:17:42
-permalink: work/nass-site
+permalink: work/nass-site/
 categories: work
 portfolio_image: "/img/portfolio/misc/nass-screenshot.jpg"
 display_order: 9

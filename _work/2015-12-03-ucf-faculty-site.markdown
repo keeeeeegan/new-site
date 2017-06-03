@@ -6,7 +6,7 @@ blurb: "University of Central Florida marketing sites and landing pages."
 tags: [frontend, design, implementation, wordpress]
 contributions: [php, "wordpress development", design]
 date: 2015-12-03 23:17:42
-permalink: work/ucf-sites
+permalink: work/ucf-sites/
 categories: work
 portfolio_image: "/img/portfolio/misc/faculty-screenshot.jpg"
 published: true

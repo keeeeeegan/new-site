@@ -6,7 +6,7 @@ blurb: "Vagrant + Chef + LAMP. Replacing the need for XAMPP, or other such LAMP 
 tags: ops
 contributions: [chef, "vagrant box"]
 date:   2015-07-06 23:17:42
-permalink: work/tasty-dev-box
+permalink: work/tasty-dev-box/
 categories: work
 display_order: 5
 published: true

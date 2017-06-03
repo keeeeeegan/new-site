@@ -6,7 +6,7 @@ blurb: "A collection of logo designs from various projects."
 tags: [design]
 contributions: [design]
 date: 2016-04-22 23:17:42
-permalink: work/logo-design
+permalink: work/logo-design/
 categories: [portfolio-unlisted]
 published: false
 

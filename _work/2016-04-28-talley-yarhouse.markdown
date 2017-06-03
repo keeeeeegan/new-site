@@ -6,7 +6,7 @@ blurb: "Branding, design, and print for friends' wedding."
 tags: [design, print design, logo design]
 contributions: [design, logo design, branding, print dsign]
 date: 2016-04-28 23:17:42
-permalink: work/talley-yarhouse-wedding
+permalink: work/talley-yarhouse-wedding/
 categories: work
 portfolio_image: "/img/portfolio/misc/talley-yarhouse/na-cd.png"
 published: false

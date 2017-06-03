@@ -7,7 +7,7 @@ blurb: "Wordpress website for engineering &amp; consulting firm."
 tags: [frontend, design, implementation]
 contributions: [wordpress, php, html, css]
 date:   2015-07-06 23:17:42
-permalink: work/rhh-consulting-engineering
+permalink: work/rhh-consulting-engineering/
 categories: work
 portfolio_image: "/img/portfolio/misc/rhh-screenshot.jpg"
 display_order: 6

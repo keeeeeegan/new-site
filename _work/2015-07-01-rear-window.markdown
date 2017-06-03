@@ -6,7 +6,7 @@ blurb: "Website for the Alfred Hitcock classic, <i>Rear Window</i>."
 tags: [frontend, backend, design, implementation, graphics]
 contributions: [design, html, css, javascript, jquery]
 date:   2015-07-06 23:17:42
-permalink: work/rear-window
+permalink: work/rear-window/
 categories: work
 portfolio_image: "/img/portfolio/misc/rearwindow-screenshot.png"
 display_order: 4
