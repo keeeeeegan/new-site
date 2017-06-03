@@ -2,7 +2,7 @@
 layout: portfolio-page
 title:  "Cloudspace Redesign"
 banner: "cloudspace"
-thumbnail: "cloudspace-screenshot.jpg"
+thumbnail: "portfolio-thumbnail-cloudspace.png"
 blurb: "New single-page website for local web-development company."
 tags: [frontend, design, implementation, graphics]
 contributions: [html, css, jekyll, "responsive design"]

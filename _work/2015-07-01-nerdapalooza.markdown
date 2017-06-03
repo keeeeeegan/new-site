@@ -11,7 +11,7 @@ permalink: work/nerdapalooza/
 categories: work
 portfolio_image: "/img/portfolio/misc/nerdapalooza-screenshot.jpg"
 display_order: 7
-published: false
+published: true
 ---
 
 Landing page for Nerdapalooza, built to replace page from previous year. Logo files and photos from previous events were provided. I created the design in Photoshop, PSD sliced where necessary, and used html/css techniques where possible.

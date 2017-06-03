@@ -1,7 +1,7 @@
 ---
 layout: portfolio-page
 title:  "Zenig Website"
-thumbnail: "zenig-home.png"
+thumbnail: "portfolio-thumbnail-zenig.png"
 blurb: "website"
 tags: [design, print design, logo design]
 contributions: [design, bourbon-neat, gulp, bower, wordpress]
@@ -20,12 +20,6 @@ I worked with company partners to iterate on the design of homepage, based on co
   <img src="/img/portfolio/misc/zenig-home.png" alt="Zenig homepage"/>
   <figcaption>Zenig homepage</figcaption>
 </figure>
-
-<div class="speech-bubb">
-  <span class="title">Keegan Says:</span>
-  <p>"This project was pretty great - I hadn’t
-  worked with Bourbon-Neat before."</p>
-</div>
 
 <figure class="portfolio-image bordered">
   <img src="/img/portfolio/misc/zenig-product.png" alt="Zenig product page"/>

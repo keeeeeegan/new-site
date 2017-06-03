@@ -1,10 +1,9 @@
 ---
-layout: page
+layout: portfolio-overview
 title: Work
 permalink: /work/
 published: true
 ---
-
 
 <ul class="work-list">
   {% for post in site.work %}

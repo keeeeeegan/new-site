@@ -1,7 +1,7 @@
 ---
 layout: portfolio-page
 title:  "NASS/NAPC Website"
-thumbnail: "portfolio-thumb-nass.png"
+thumbnail: "portfolio-thumbnail-nass.png"
 blurb: "Website for local engineering contracting company."
 tags: [frontend, design, implementation, wordpress, mobile first]
 contributions: [design, php, "wordpress development", responsive design, bourbon.io]

@@ -1,16 +1,18 @@
 <section class="portfolio-thumbnails">
 {% assign sorted_pages = (site.work  | sort: 'display_order') %}
 {% for post in sorted_pages reversed %}
-  <a href="{{ post.url | prepend: site.baseurl }}" class="portfolio-thumbnail" style="background-image:url('/img/portfolio/misc/{{ post.thumbnail }}');">
-    <!-- <img src="/img/portfolio/misc/{{ post.thumbnail }}" alt="{{ post.title }}" />
-    <a href="{{ post.url | prepend: site.baseurl }}" class="description">{{ post.blurb }}
-      <span class="tags">
-        {% for tag in post.tags %}
-        <span class="tag frontend">{{ tag }}</span>
-        {% endfor %}
-      </span>
-    </a> -->
-  </a>
+  <div class="portfolio-thumbnail-wrapper">
+    <a href="{{ post.url | prepend: site.baseurl }}" class="portfolio-thumbnail" style="background-image:url('/img/portfolio/misc/{{ post.thumbnail }}');">
+      <!-- <img src="/img/portfolio/misc/{{ post.thumbnail }}" alt="{{ post.title }}" />
+      <a href="{{ post.url | prepend: site.baseurl }}" class="description">{{ post.blurb }}
+        <span class="tags">
+          {% for tag in post.tags %}
+          <span class="tag frontend">{{ tag }}</span>
+          {% endfor %}
+        </span>
+      </a> -->
+    </a>
+  </div>
   <!-- <div class="post" style="display: none;">
     {{post.content}}
      <div class="page-footer">
