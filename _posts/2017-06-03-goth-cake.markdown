@@ -3,5 +3,9 @@ layout: post
 title:  "Goth Cake"
 date:   2017-06-03 01:02:52
 categories: jekyll update
-published: false
+published: true
+custom_stylesheet_href: https://fonts.googleapis.com/css?family=Creepster
+# custom_javascript_src: https://fonts.googleapis.com/css?family=Creepster
 ---
+
+I made a <span style="font-family: 'Creepster', cursive; font-size: 125%;">Black Velvet</span> cake for my friend.

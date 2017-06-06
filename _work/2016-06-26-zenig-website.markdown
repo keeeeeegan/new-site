@@ -21,6 +21,12 @@ I worked with company partners to iterate on the design of homepage, based on co
   <figcaption>Zenig homepage</figcaption>
 </figure>
 
+<div class="speech-bubb">
+  <span class="title">TL;DR</span>
+  <p>"This project was pretty great - I hadn’t
+  worked with Bourbon-Neat before."</p>
+</div>
+
 <figure class="portfolio-image bordered">
   <img src="/img/portfolio/misc/zenig-product.png" alt="Zenig product page"/>
   <figcaption>Zenig product page for <em>Kiosk</em></figcaption>
