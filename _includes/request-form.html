@@ -1,0 +1,20 @@
+<div class="contact-form-container">
+	<form action="{{ site.contact_form_action }}" method="POST" class="contact-form" target="_self">
+		<input type="hidden" name="type" value="Request Form" />
+		<div class="input-container">
+			<input placeholder="Name" name="name" id="form_name" />
+		</div>
+		<div class="input-container">
+			<input placeholder="Email" name="_replyto" id="form_email" />
+		</div>
+		<div class="input-container">
+			<input placeholder="Phone #" name="phone" id="form_phone" />
+		</div>
+		<div class="input-container">
+			<textarea placeholder="How can I help?" name="body" id="form_message"></textarea>
+		</div>
+		<div class="input-container">
+			<input type="submit" class="button submit" value="Send" />
+		</div>
+	</form>
+</div>

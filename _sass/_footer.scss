@@ -5,8 +5,12 @@ footer {
 		display: block;
 	}
 
-	background: $color-rust;
 	color: #fff;
+
+		background: $color-rust url('/img/octobackground_rust.jpg');
+		background-size: 500px;
+		background-repeat: no-repeat;
+
 
 	// background: #e8e3d6;
 	// color: #333;
@@ -128,6 +132,96 @@ footer {
 	}
 
 
+}
+
+.form .page-content {
+	padding-bottom: 80px;
+}
+
+.form .post-content .contact-form-container {
+
+	.contact-form {
+		width: 100%;
+
+		.input-container {
+			clear:both;
+		}
+
+		input,
+		textarea,
+		.button {
+			color: #1f1f1f;
+			background: transparent;
+			border: solid 1px $color-blue;
+			padding: 9px 12px;
+			font-size: 14px;
+			display:block;
+			margin-bottom: 10px;
+			width: 100%;
+			box-sizing: border-box;
+			font-family: $font-primary;
+			font-weight: normal;
+			float: right;
+		}
+
+		textarea {
+			height: 125px;
+			text-align: left;
+		}
+
+		input {
+			text-align: left;
+		}
+
+		input::-webkit-input-placeholder,
+		textarea::-webkit-input-placeholder  {
+			color: #1f1f1f;
+			text-align: left;
+		}
+
+		textarea::-webkit-input-placeholder  {
+			text-align: left;
+		}
+
+		input:-moz-placeholder,
+		textarea:-moz-placeholder { /* Firefox 18- */
+			color: #1f1f1f;
+		}
+
+		input::-moz-placeholder,
+		textarea::-moz-placeholder {  /* Firefox 19+ */
+			color: #1f1f1f;
+		}
+
+		input:-ms-input-placeholder,
+		textarea:-ms-input-placeholder {
+			color: #1f1f1f;
+		}
+
+		.button {
+			font-family: $font-secondary;
+			background: #1f1f1f;
+			font-weight: 500;
+			font-size: 20px;
+			text-transform: uppercase;
+			width: 82px;
+			text-align: left;
+			color: #fff;
+			padding: 2px 8px;
+			cursor: pointer;
+			border: none;
+			float: left;
+		}
+
+		.button:hover {
+			background-color: #E8B22B;
+		}
+
+	}
+}
+
+.form footer .contact-form-wrapper {
+	display: none;
 }
 
 .social-icons {
