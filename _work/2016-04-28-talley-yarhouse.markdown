@@ -9,7 +9,7 @@ date: 2016-04-28 23:17:42
 permalink: work/talley-yarhouse-wedding/
 categories: work
 portfolio_image: "/img/portfolio/misc/talley-yarhouse/na-cd.png"
-published: false
+published: true
 
 ---
 

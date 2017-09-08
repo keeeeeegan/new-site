@@ -27,4 +27,4 @@ The site is static, built using PHP for templating. jQuery was utlized to create
   <figcaption>As 'blinds.js' is activated during page change</figcaption>
 </figure>
 
-<a class="link-icon cta-link" href="http://keeg.me/stuff/rear-window-movie-site/about/">See live page</a>
+<a class="link-icon cta-link" href="http://keeganberry.com/rear-window/">See live page</a>

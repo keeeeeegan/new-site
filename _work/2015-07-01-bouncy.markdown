@@ -12,13 +12,12 @@ categories: [portfolio-unlisted]
 portfolio_image: "custom-banner"
 banner: "bouncy-divs"
 display_order: 9
-published: false
+published: true
 ---
 
 Project to demonstrate Object Oriented JavaScript concepts and DOM manipulation. Divs are spawned on the page and when they collide with the edge of the window, they reverse speed. Clicking on a div spawns a new div, with a new name, random color, and random speed.
 
 Built using JavaScript, utilizing the Revealing Module Pattern.
 
-<p class="links">
-  <span class="fa fa-link"></span> <a href="http://keeg.me/stuff/bouncy-divs/bouncy.html">See live demo</a>
-</p>
+<a href="http://keeganberry.com/bouncy/bouncy.html" class="link-icon cta-link">See Demo</a>
+<a href="https://github.com/keeeeeegan/bouncy-divs" class="link-icon cta-link">View Code</a>

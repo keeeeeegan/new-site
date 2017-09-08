@@ -20,6 +20,5 @@ I implemented a scrolling ticker to showcase performers for 2013, as well as a d
 
 Bootstrap's CSS was utilized for gridding and layout, which also provided a foundation for the responsive design.
 
-<p class="links">
-  <span class="fa fa-link"></span> <a href="http://keeg.me/stuff/nerdapalooza-2013-landing-page/">See live demo</a>
-</p>
+
+<a href="http://keeganberry.com/nerdapalooza/" class="link-icon cta-link">See Live Demo</a>

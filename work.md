@@ -1,6 +1,6 @@
 ---
 layout: portfolio-overview
-title: Selected Examples
+title: Work
 permalink: /work/
 published: true
 ---

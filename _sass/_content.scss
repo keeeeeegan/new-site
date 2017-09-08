@@ -77,14 +77,19 @@
 	}
 }
 
-.home .page-content {
+//.home .page-content {
+.page-content {
 	@media (min-width: $break-sm-max) {
 		background: url('/img/octobackground.jpg');
 		background-size: 500px;
 		background-repeat: no-repeat;
 	}
 }
-
+.portfolio-page .page-content {
+	@media (min-width: $break-sm-max) {
+		background: none;
+	}
+}
 .post-title {
 	font-family: $font-secondary;
 	font-weight: 300;
