@@ -2,6 +2,8 @@
 published: false
 ---
 
+<p><img src="/img/me-and-the-big-boi.png" alt="" style="transform: rotate(1deg);"></p>
+
 <link href="https://fonts.googleapis.com/css?family=Chango|Oswald:300,400,700|Roboto:500,300,700,400|Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
 <link rel="stylesheet" type="text/css" media="all" href="/fonts/reklamescript_demo_macroman/stylesheet.css" />
 

@@ -4,7 +4,7 @@ title: Welcome
 ---
 
 <figure>
-  <img src="/img/me-office.png" class="about-me-pic" alt="My face"/>
+  <img src="/img/me-bw.jpg" class="about-me-pic" alt="My face"/>
 </figure>
 
 # Hello
