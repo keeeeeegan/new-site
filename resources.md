@@ -2,6 +2,11 @@
 published: false
 ---
 
+<figure>
+  <img src="/img/me-snowing.png" alt="My face"/>
+  <figcaption>That one time when I was in Tennessee and it snowed.</figcaption>
+</figure>
+
 <p><img src="/img/me-and-the-big-boi.png" alt="" style="transform: rotate(1deg);"></p>
 
 <link href="https://fonts.googleapis.com/css?family=Chango|Oswald:300,400,700|Roboto:500,300,700,400|Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
