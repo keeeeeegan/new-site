@@ -5,9 +5,10 @@ footer {
 		display: block;
 	}
 
-	color: #fff;
+	// color: #fff;
+	color: $footer-text-color;
 
-		background: $color-rust url('/img/octobackground_rust.jpg');
+		background: $color-rust url($background-with-color);
 		background-size: 500px;
 		background-repeat: no-repeat;
 
@@ -62,9 +63,9 @@ footer {
 		input,
 		textarea,
 		.button {
-			color: #fff;
+			color: $footer-text-color;
 			background: transparent;
-			border: solid 1px #fff;
+			border: solid 1px $footer-text-color;
 			padding: 9px 12px;
 			font-size: 14px;
 			display:block;
@@ -87,7 +88,7 @@ footer {
 
 		input::-webkit-input-placeholder,
 	  textarea::-webkit-input-placeholder  {
-	    color: #fff;
+	    color: $footer-text-color;
 		  text-align: left;
 	  }
 
@@ -97,17 +98,17 @@ footer {
 
 	  input:-moz-placeholder,
 	  textarea:-moz-placeholder { /* Firefox 18- */
-	    color: #fff;
+	    color: $footer-text-color;
 	  }
 
 	  input::-moz-placeholder,
 	  textarea::-moz-placeholder {  /* Firefox 19+ */
-	    color: #fff;
+	    color: $footer-text-color;
 	  }
 
 	  input:-ms-input-placeholder,
 	  textarea:-ms-input-placeholder {
-	    color: #fff;
+	    color: $footer-text-color;
 	  }
 
 	  .button {

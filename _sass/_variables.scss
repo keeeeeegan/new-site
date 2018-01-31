@@ -3,9 +3,29 @@ $font-primary: 'Roboto', Helvetica Neue, Helvetica, Arial, sans-serif;
 $font-secondary: 'Oswald', Helvetica Neue, Helvetica, Arial, sans-serif;
 $font-logo: 'Chango', Helvetica Neue, Helvetica, Arial, sans-serif;
 
-$color-blue: #759eb1;
-$color-blue-dark: #485d67;
-$color-rust: #a23d15;
+// $color-blue: #759eb1;
+// $color-blue-dark: #485d67;
+// $color-blue-link: #769EB0;
+
+$color-blue: #439c5e;
+$color-blue-dark: #14823b;
+$color-blue-link: #769EB0;
+
+$lime: lime;
+$rust: #a23d15;
+
+$dark-background-text-color: #fff;
+$light-background-text-color: rgba(31, 31, 31, 0.65);
+
+$footer-text-color: $light-background-text-color;
+
+$background-with-rust: '/img/octobackground_rust.jpg';
+$background-with-lime: '/img/octobackground_lime.jpg';
+
+$background-with-color: $background-with-lime;
+
+$color-rust: $lime;
+
 
 $bar-width: 375px;
 
