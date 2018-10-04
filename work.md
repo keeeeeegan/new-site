@@ -1,9 +1,9 @@
 ---
 layout: home
-title: 404 - Not Found
+title: Work
 permalink: /work/
 ---
-  <section class="page-section main">
+  <!-- <section class="page-section main">
     <div class="content-container">
     <div class="section-copy">
       <h2 class="section-title">Not Found</h2>
@@ -12,9 +12,9 @@ permalink: /work/
       <p>I'm sorry, that page doesn't exist or can't be found.</p>
     </div>
   </div>
-  </section>
+  </section> -->
 
-<!--<ul class="work-list">
+<ul class="work-list">
   {% for post in site.work %}
     <li>
       <a class="work-item-wrapper" href="{{ post.url | prepend: site.baseurl }}">
@@ -24,4 +24,4 @@ permalink: /work/
       </a>
     </li>
   {% endfor %}
-</ul>-->
+</ul>

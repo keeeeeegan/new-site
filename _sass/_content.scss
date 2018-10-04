@@ -94,6 +94,8 @@
 	font-family: $font-secondary;
 	font-weight: 300;
 	text-transform: uppercase;
+	// font-family: $font-round;
+	// font-weight: 500;
 }
 
 .script {
@@ -189,9 +191,16 @@ h1#hello {
 	max-width: 235px;
 	border-radius:50%;
 
+	@media (max-width: $break-sm-max) {
+		float: right;
+		margin-left: 40px;
+	}
+
 	@media (max-width: $break-xs-max) {
 		max-width: 100%;
 		margin: 0 auto;
+		float: none;
+		margin-left: auto;
 	}
 }
 
@@ -418,3 +427,20 @@ a.cta-link:hover {
 	}
 
 }
+
+// p.down {
+// 	width: 640px;
+// 	position: relative;
+// 	overflow: auto;
+//
+// 	img {
+// 		position: absolute;
+// 		top: 0;
+// 		left: 0;
+// 	}
+// 	img::before {
+// 		display: block;
+// 		background: #000;
+//
+// 	}
+// }

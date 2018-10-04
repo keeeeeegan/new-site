@@ -12,7 +12,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "/" # the base hostname & protocol for your site
 
 twitter_username: keegan
-instagram_username: keeganberries
+instagram_url: http://keeganberry.com/instagram.html
 flickr_urlname: superdeathsquid
 linkedin_profile_url: https://www.linkedin.com/in/keegan-berry-5528a713
 github_username:  keeeeeegan
@@ -24,6 +24,10 @@ ga_property: "UA-26787049-1"
 
 # Build settings
 markdown: kramdown
+
+# Plugins
+plugins:
+  - jekyll-admin
 
 # Collections (work)
 collections:

@@ -12,6 +12,7 @@
 	box-sizing: border-box;
 
 	@media (max-width: $break-sm-max) {
+		background: #111;
 		min-height: 130px;
 		padding-right: 30px;
 		padding-top: 0;
