@@ -1,20 +1,23 @@
 $font-primary: 'Roboto', Helvetica Neue, Helvetica, Arial, sans-serif;
-// $font-condensed: 'Roboto Condensed', Helvetica Neue, Helvetica, Arial, sans-serif;
 $font-secondary: 'Oswald', Helvetica Neue, Helvetica, Arial, sans-serif;
-$font-round: 'Poppins', Helvetica Neue, Helvetica, Arial, sans-serif;
 
-$font-logo: 'Chango', Helvetica Neue, Helvetica, Arial, sans-serif;
-
-// $color-blue: #759eb1;
-// $color-blue-dark: #485d67;
-// $color-blue-link: #769EB0;
-
-$color-blue: #439c5e;
-$color-blue-dark: #14823b;
+$color-blue: #759eb1;
+$color-blue-dark: #485d67;
 $color-blue-link: #769EB0;
+$color-green: #439c5e;
+$color-green-dark: #14823b;
+$color-green-link: #769EB0;
 
 $lime: lime;
 $rust: #a23d15;
+$a-blue: #222c3d;
+$light-green: #c4cec3;
+$color-blue-mild: #405984;
+$lighter-green: #889680; //#394035;
+$even-lighter-green: #afb5ab;
+$orange-color: #e65e07;
+$color-mustard: #E8B22B;
+$light-gray: #f1f1f1;
 
 $dark-background-text-color: #fff;
 $light-background-text-color: rgba(31, 31, 31, 0.65);
@@ -26,8 +29,8 @@ $background-with-lime: '/img/octobackground_lime.jpg';
 
 $background-with-color: $background-with-lime;
 
-$color-rust: $lime;
-
+$color-main: $light-gray; //$even-lighter-green;
+$color-alt: $color-mustard;
 
 $bar-width: 375px;
 

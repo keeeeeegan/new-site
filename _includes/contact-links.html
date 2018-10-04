@@ -1,0 +1,20 @@
+<div class="contact-links">
+  <ul class="social-icons">
+    {% if site.twitter_username %}
+      <li class="twitter"><a title="Twitter @{{ site.twitter_username }}" href="http://twitter.com/{{ site.twitter_username }}">Twitter @{{ site.twitter_username }}</a></li>
+    {% endif %}
+    {% if site.instagram_url %}
+      <li class="instagram"><a title="Instagram" href="{{ site.instagram_url }}">Instagram</a></li>
+    {% endif %}
+    {% if site.flickr_urlname %}
+      <li class="flickr"><a title="Flickr" href="https://www.flickr.com/photos/{{ site.flickr_urlname }}">Flickr</a></li>
+    {% endif %}
+    {% if site.linkedin_profile_url %}
+      <li class="linkedin"><a title="LinkedIn" href="{{ site.linkedin_profile_url }}">LinkedIn</a></li>
+    {% endif %}
+    {% if site.github_url %}
+      <li class="github"><a title="Fork me on Github!" href="{{ site.github_url }}">Fork me on Github!</a></li>
+    {% endif %}
+    <li class="email"><a title="Shoot me a message" href="/contact">Shoot me a message</a></li>
+  </ul>
+</div>

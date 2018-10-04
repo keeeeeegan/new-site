@@ -4,17 +4,9 @@
   {% include head.html %}
 
   <body{% if page.layout %} class="{{ page.layout }}"{% endif %}>
-
-		<div class="col-wrap">
-
-			{% include mainbar.html %}
-
-			<div class="col page-content">
-				<div class="wrapper">
-					{{ content }}
-				</div>
-			</div>
-		</div>
-		{% include footer.html %}
+    <div class="col page-content">
+      {% include contact-links.html %}
+      {{ content }}
+    </div>
   </body>
 </html>

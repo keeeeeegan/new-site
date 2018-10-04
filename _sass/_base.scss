@@ -1,58 +1,45 @@
 html {
-	-webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  background: $color-main;
 
-	@media (max-width: $break-sm-max) {
-		background: $color-rust;
-	}
+  // @media (max-width: $break-sm-max) {
+  // background: $color-rust;
+  // }
 }
 
 body {
-	font-family: $font-primary;
-	font-size: 16px;
-	line-height: 1.5;
-	font-weight: normal;
-	color: #333;
-	margin: 0;
+  color: #333;
+  font-family: $font-primary;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  // letter-spacing: .07em;
+  line-height: 2.2;
 
-	@media (max-width: $break-sm-max) {
-		background: #fff;
-	}
+  width: 80%;
+  // max-width: 1000px;
+  margin: 100px auto;
+
+  // font-size: 16px;
+  // font-weight: normal;
+  // line-height: 1.5;
+
+  @media (max-width: $break-sm-max) {
+    width: 90%;
+    margin: 50px auto;
+  }
+
 }
 
-html,
-body,
-.col-wrap {
-	height: 100%;
-
-	@media (max-width: $break-sm-max) {
-		height: auto;
-	}
-}
-
-a:link,
-a:visited {
-	color: #333;
-}
-
-.col-wrap {
-	display: table;
-
-	@media (max-width: $break-sm-max) {
-		display: block;
-	}
-}
-
-.col {
-	box-sizing: border-box;
-	display: table-cell;
-	height: 100%;
-	vertical-align: top;
-
-	@media (max-width: $break-sm-max) {
-		display: block;
-		width: 100%;
-		height: auto;
-	}
+.page-content {
+  padding: 100px;
+  background: #fff;
+  @media (max-width: $break-sm-max) {
+    padding: 50px;
+  }
+  @media (max-width: $break-xs-max) {
+    padding: 20px;
+  }
 }
 
 a:link,
@@ -67,11 +54,4 @@ a:hover {
 a:hover {
 	text-decoration: underline;
 	color: $color-blue-dark;
-}
-
-.invisible {
-	visibility: hidden;
-	position: absolute;
-	top: 0;
-	left: 0;
 }

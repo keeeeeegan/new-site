@@ -2,7 +2,7 @@
 layout: page
 title: Posts
 permalink: /posts/
-published: true
+published: false
 ---
 
 <ul>

@@ -1,446 +1,131 @@
-.page-content {
-	padding: 60px 40px 40px 40px;
-	width: 100%;
-	background: #fff;
-
-	@media (max-width: $break-sm-max) {
-		padding-top: 40px;
-		// background-size: contain;
-	}
-
-	.wrapper {
-		max-width: 800px;
-
-		@media (max-width: $break-sm-max) {
-			max-width: 100%;
-		}
-	}
-
-	.content-right {
-		text-align: right;
-	}
-
-	img {
-		max-width: 100%;
-
-		&.align-right {
-			float: right;
-			margin: 0 0 20px 20px;
-		}
-		&.shadow {
-			box-shadow: -4px 4px 0 $color-rust;
-		}
-		&.circle {
-			border-radius: 50%;
-		}
-	}
-
-	figure {
-		max-width: 100%;
-		box-sizing: border-box;
-
-		&.align-right {
-			float: right;
-			margin: 0 0 20px 20px;
-		}
-
-		img {
-			box-sizing: border-box;
-			max-width: 100%;
-		}
-
-		figcaption {
-			font-size: 11px;
-			color: #8c8c8c;
-		}
-
-		&.portfolio-image {
-			padding-top: 10px;
-			padding-bottom: 15px;
-		}
-		&.portfolio-image.bordered img {
-			padding: 10px;
-			margin: 10px 0 5px 0;
-	    border: solid #efefef 1px;
-
-	    background: rgba(255, 255, 255, 0.3);
-	    // box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
-		}
-		&.portfolio-image.bordered figcaption {
-			text-align: left;
-		}
-	}
-
-	.caption {
-		font-size: 11px;
-		color: #8c8c8c;
-	}
-}
-
-//.home .page-content {
-.page-content {
-	@media (min-width: $break-sm-max) {
-		background: url('/img/octobackground.jpg');
-		background-size: 500px;
-		background-repeat: no-repeat;
-	}
-}
-.portfolio-page .page-content {
-	@media (min-width: $break-sm-max) {
-		background: none;
-	}
-}
-.post-title {
-	font-family: $font-secondary;
-	font-weight: 300;
-	text-transform: uppercase;
-	// font-family: $font-round;
-	// font-weight: 500;
-}
-
-.script {
-		color: #848484;
-    font-family: 'reklame_script_regular_demoRg', helvetica neue, arial;
-    padding-bottom: 20px;
-    font-weight: 100;
-    font-size: 98px;
-    // margin-top: -5px !important;
-		line-height: 1;
-    // text-shadow: 1px 1px 0 #16191D;
-    // margin-bottom: -32px;
-}
-
-.section-title.script {
-	margin: 10px 0 15px 0;
-}
-
-
-
-
-
-h1#hello {
-	font-family: $font-secondary;
-	font-weight: 500;
-	font-size: 34px;
+h1 {
+  font-family: $font-secondary;
+  font-weight: 500;
+  font-size: 34px;
 }
 
 .post-content {
-	figure {
-		margin: 0;
-	}
+  figure {
+  margin: 0;
+  }
 
-	h2 {
-		font-family: $font-secondary;
-		font-weight: 500;
-		font-size: 28px;
-	}
-}
+  h2 {
+  font-family: $font-secondary;
+  font-weight: 500;
+  font-size: 28px;
+  }
 
-.page-content .portfolio-page {
-	aside {
-		h2 {
-			font-size: 1em;
-	    text-transform: uppercase;
-	    color: #333;
-	    margin-bottom: 0;
-	    border-bottom: 1px solid #333;
-	    padding-bottom: 4px;
-	    margin-bottom: 10px;
-			margin-top: 30px;
-		}
-
-		ul {
-			margin: 0;
-			padding: 0;
-
-			li {
-				list-style-type: none;
-		    display: inline-block;
-		    padding: 1px 7px;
-		    border-radius: 5px;
-		    font-size: .75em;
-		    background: $color-rust;
-		    color: #fff;
-			}
-		}
-	}
-}
-
-.portfolio-thumbnails {
-
-}
-
-.portfolio-thumbnail-wrapper {
-	width: 33%;
-	display: inline-block;
-
-}
-
-.portfolio-thumbnail {
-	display: block;
-	width: 215px;
-	overflow: hidden;
-	padding-top: 290px;
-	background-position: 50% 50%;
-	background-size: cover;
-	// border: solid #efefef 1px;
-}
-
-
-.page-content figure img.about-me-pic {
-	max-width: 235px;
-	border-radius:50%;
-
-	@media (max-width: $break-sm-max) {
-		float: right;
-		margin-left: 40px;
-	}
-
-	@media (max-width: $break-xs-max) {
-		max-width: 100%;
-		margin: 0 auto;
-		float: none;
-		margin-left: auto;
-	}
-}
-
-.page-content {
-	.lead {
-		font-size: 125%;
-	}
-
-}
-
-/*
-.contact-form {
-	text-align: right;
-	width: 100%;
-
-	.input-container {
-		clear:both;
-	}
-
-	input,
-	textarea,
-	.button {
-		color: #333;
-		background: transparent;
-		border: solid 1px #333;
-		padding: 9px 12px;
-		font-size: 18px;
-		display:block;
-		margin-bottom: 10px;
-		font-family: $font-primary;
-		font-weight: normal;
-		float: left;
-	}
-
-	textarea {
-		height: 125px;
-		text-align: left;
-	}
-
-	input {
-		text-align: left;
-	}
-
-	input::-webkit-input-placeholder,
-	textarea::-webkit-input-placeholder  {
-		color: #333;
-		text-align: left;
-	}
-
-	textarea::-webkit-input-placeholder  {
-		text-align: left;
-	}
-
-	input:-moz-placeholder,
-	textarea:-moz-placeholder {
-		color: #333;
-	}
-
-	input::-moz-placeholder,
-	textarea::-moz-placeholder {
-		color: #333;
-	}
-
-	input:-ms-input-placeholder,
-	textarea:-ms-input-placeholder {
-		color: #333;
-	}
-
-	.button {
-		font-family: $font-secondary;
-		background: $color-blue;
-		font-weight: 500;
-		font-size: 20px;
-		text-transform: uppercase;
-		width: 82px;
-		text-align: left;
-		color: #fff;
-		padding: 2px 8px;
-		cursor: pointer;
-		border: none;
-	}
-}
-*/
-
-.portfolio-image {
-  width: 100%;
-  text-align: center;
-  padding-top: 75px;
+  .lead {
+    font-size: 125%;
+  }
 
   img {
-    margin: 0 auto;
-    // width: 300px;
+    display: block;
     max-width: 100%;
+    height: auto;
   }
 
-	&.small {
-		img {
-			width: 45%;
-		}
-	}
-
-  &.wide {
-    img {
-    	width: 100%;
-    }
+  .page-imgs {
+      width: 100%;
+      text-align: center;
+      img {
+        width: 500px;
+        max-width: 90%;
+        margin: 70px auto;
+      }
   }
 }
 
-img.center {
-	display: block;
-	margin: 0 auto;
+
+.portfolio-thumbnail-wrapper {
+  width: 33%;
+  display: inline-block;
 }
+
+img.about-me-pic {
+  max-width: 235px;
+  border-radius:50%;
+
+  @media (max-width: $break-sm-max) {
+  float: right;
+  margin-left: 40px;
+  max-width: 60%;
+  }
+
+  @media (max-width: $break-xs-max) {
+  max-width: 60%;
+  margin: 0 auto;
+  float: none;
+  margin-left: auto;
+  }
+}
+
+.photo-grid {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: auto;
+  clear:both;
+  // position: absolute;
+  // bottom: 0;
+
+  &:after {
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+  }
+
+  .photo-grid-photo {
+  width: 25%;
+
+  @media (max-width: $break-sm-max) {
+  width: 50%;
+  }
+  overflow: hidden;
+  float: left;
+
+  img {
+  width: 100%;
+  }
+  }
+}
+
+.home .page-imgs {
+    margin-top: 180px;
+}
+
 
 a.cta-link:link,
 a.cta-link:visited,
 a.cta-link:active {
-	font-family: $font-secondary;
-	background: $color-blue;
-	font-weight: 500;
-	font-size: 20px;
-	text-transform: uppercase;
-	width: 82px;
-	text-align: right;
-	padding: 3px 11px;
-	cursor: pointer;
-	border: none;
-	text-decoration: none;
-	color: #fff;
-	transition: background-color 0.1s;
+  font-family: $font-secondary;
+  background: $color-green;
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 82px;
+  text-align: right;
+  padding: 3px 11px;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 0.1s;
 
-	&:before {
-		content: "\f0c1";
-		font-family: FontAwesome;
-		font-style: normal;
+  &:before {
+  content: "\f0c1";
+    font-family: FontAwesome;
+    font-style: normal;
     font-weight: 100;
     text-decoration: inherit;
     font-size: 17px;
     padding: 0 6px 0 0;
     display: inline-block;
     margin-left: -3px;
-	}
+  }
 }
 
 a.cta-link:hover {
-	background-color: $color-blue-dark;
+  background-color: $color-green-dark;
 }
-
-
-.photo-grid {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	overflow: auto;
-	clear:both;
-	// position: absolute;
-	// bottom: 0;
-
-	&:after {
-		display: block;
-		height: 0;
-		overflow: hidden;
-		clear: both;
-	}
-
-	.photo-grid-photo {
-		width: 25%;
-
-		@media (max-width: $break-sm-max) {
-			width: 50%;
-		}
-		overflow: hidden;
-		float: left;
-
-		img {
-			width: 100%;
-		}
-	}
-}
-
-.speech-bubb {
-	// background: #0e0d12;
-	background: url("/img/speech-bubb-start.png") 0 0 no-repeat
-		, url("/img/speech-bubb-end.png") 100% 0 no-repeat;
-	background-size: contain;
-  color: #fff;
-  font-family: "Oswald", Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 1.25em;
-  border-radius: 10px;
-  margin-left: 110px;
-  position: relative;
-  padding: .75em .75em .75em 2em;
-  font-weight: 100;
-  margin-top: 30px;
-	margin-bottom: 50px;
-  width: calc(100%-110px);
-  box-sizing: border-box;
-
-	@media (max-width: $break-sm-max) {
-		display: none;
-	}
-
-	&::before {
-		content: ' ';
-		display: block;
-		position:absolute;
-		width: 100px;
-		height: 100px;
-		left: -110px;
-		overflow: hidden;
-		background: transparent url('/img/illustrated-face.png') no-repeat;
-		background-size: contain;
-	}
-
-	.title {
-		font-size: .7em;
-		color: $color-rust;
-		font-weight: bold;
-		font-style: italic;
-		display: block;
-	}
-
-	p {
-		margin: 0 0 .5em 0;
-	}
-
-}
-
-// p.down {
-// 	width: 640px;
-// 	position: relative;
-// 	overflow: auto;
-//
-// 	img {
-// 		position: absolute;
-// 		top: 0;
-// 		left: 0;
-// 	}
-// 	img::before {
-// 		display: block;
-// 		background: #000;
-//
-// 	}
-// }

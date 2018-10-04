@@ -1,29 +1,3 @@
-<footer id="contact">
-	<div class="contact-form-wrapper">
-		<h2>Contact Me</h2>
-		{% include contact-form.html %}
-	</div>
-
-	<p class="copyright">Copyright &copy; 2018 Keegan Berry</p>
-
-	<div class="get-in-touch-wrapper">
-		<h2 class="invisible">Get In Touch</h2>
-		<ul class="social-icons">
-			{% if site.twitter_username %}
-				<li class="twitter"><a href="http://twitter.com/{{ site.twitter_username }}">Twitter @{{ site.twitter_username }}</a></li>
-			{% endif %}
-			{% if site.instagram_url %}
-				<li class="instagram"><a href="{{ site.instagram_url }}">Instagram</a></li>
-			{% endif %}
-			{% if site.flickr_urlname %}
-				<li class="flickr"><a href="https://www.flickr.com/photos/{{ site.flickr_urlname }}">Flickr</a></li>
-			{% endif %}
-			{% if site.linkedin_profile_url %}
-				<li class="linkedin"><a href="{{ site.linkedin_profile_url }}">LinkedIn</a></li>
-			{% endif %}
-			{% if site.github_url %}
-				<li class="github"><a href="{{ site.github_url }}">Fork me on Github!</a></li>
-			{% endif %}
-		</ul>
-	</div>
+<footer>
+  <p class="copyright">Copyright &copy; 2018 Keegan Berry</p>
 </footer>

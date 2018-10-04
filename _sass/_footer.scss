@@ -1,138 +1,5 @@
 footer {
-	display: none;
-
-	@media (max-width: $break-sm-max) {
-		display: block;
-	}
-
-	// color: #fff;
-	color: $footer-text-color;
-
-		background: $color-rust url($background-with-color);
-		background-size: 500px;
-		background-repeat: no-repeat;
-
-
-	// background: #e8e3d6;
-	// color: #333;
-
-	padding: 40px;
-
-	h2 {
-		clear: both;
-		font-size: 17px;
-		text-transform: uppercase;
-		font-family: $font-secondary;
-		font-size: 20px;
-		margin-top: 0;
-	}
-
-	.copyright {
-		float: left;
-		margin: 0;
-
-		@media (max-width: $break-xs-max) {
-			float: none;
-			display: block;
-			width: 100%;
-			text-align: center;
-		}
-	}
-
-	.contact-form-wrapper {
-		margin-bottom: 40px;
-
-		&:after {
-			content: '';
-			display: block;
-			clear: both;
-			height: 0;
-			width: 100%;
-		}
-	}
-
-
-	.contact-form {
-		text-align: right;
-		width: 100%;
-
-		.input-container {
-			clear:both;
-		}
-
-		input,
-		textarea,
-		.button {
-			color: $footer-text-color;
-			background: transparent;
-			border: solid 1px $footer-text-color;
-			padding: 9px 12px;
-			font-size: 14px;
-			display:block;
-			margin-bottom: 10px;
-			width: 100%;
-			box-sizing: border-box;
-			font-family: $font-primary;
-			font-weight: normal;
-			float: right;
-	  }
-
-		textarea {
-			height: 125px;
-			text-align: left;
-		}
-
-		input {
-			text-align: left;
-		}
-
-		input::-webkit-input-placeholder,
-	  textarea::-webkit-input-placeholder  {
-	    color: $footer-text-color;
-		  text-align: left;
-	  }
-
-		textarea::-webkit-input-placeholder  {
-	    text-align: left;
-	  }
-
-	  input:-moz-placeholder,
-	  textarea:-moz-placeholder { /* Firefox 18- */
-	    color: $footer-text-color;
-	  }
-
-	  input::-moz-placeholder,
-	  textarea::-moz-placeholder {  /* Firefox 19+ */
-	    color: $footer-text-color;
-	  }
-
-	  input:-ms-input-placeholder,
-	  textarea:-ms-input-placeholder {
-	    color: $footer-text-color;
-	  }
-
-	  .button {
-			font-family: $font-secondary;
-			background: #1f1f1f;
-			font-weight: 500;
-			font-size: 20px;
-			text-transform: uppercase;
-			width: 82px;
-			text-align: left;
-			color: #fff;
-			padding: 2px 8px;
-			cursor: pointer;
-			border: none;
-			float: left;
-	  }
-
-		.button:hover {
-			background-color: #E8B22B;
-		}
-
-	}
-
-
+	text-align: center;
 }
 
 .form .page-content {
@@ -144,9 +11,6 @@ footer {
 	.contact-form {
 		width: 100%;
 
-		.input-container {
-			clear:both;
-		}
 
 		input,
 		textarea,
@@ -162,7 +26,6 @@ footer {
 			box-sizing: border-box;
 			font-family: $font-primary;
 			font-weight: normal;
-			float: right;
 		}
 
 		textarea {
@@ -211,11 +74,11 @@ footer {
 			padding: 2px 8px;
 			cursor: pointer;
 			border: none;
-			float: left;
+
 		}
 
 		.button:hover {
-			background-color: #E8B22B;
+			background-color: $color-mustard;
 		}
 
 	}
@@ -231,7 +94,7 @@ footer {
   padding: 0;
   list-style-type: none;
 
-	@media (max-width: $break-xs-max) {
+	@media (max-width: $break-sm-max) {
 		float: none;
 		display: block;
 		width: 100%;
@@ -248,7 +111,7 @@ footer {
     color: #fff;
     font-size: 18px;
     margin: 0 5px 10px 0px;
-    background: #1f1f1f;
+    background: #000;
     display: inline-block;
     width: 30px;
     height: 0;
@@ -261,7 +124,7 @@ footer {
     background-repeat: no-repeat;
     background-size: 50%; }
   .social-icons a:hover {
-    background-color: #E8B22B; }
+    background-color: $color-alt; }
   .social-icons li.forrst a {
     background-image: url("../img/social/icon_forrst.png"); }
   .social-icons li.twitter a {
@@ -277,10 +140,12 @@ footer {
   .social-icons li.instagram a {
     background-image: url("../img/social/icon_instagram.png"); }
   .social-icons li.email a {
-    background-image: url("../img/social/icon_gmail.png"); }
+    background-image: url("../img/social/icon_email.png");
+	  background-position: 40% 50%; }
   .social-icons li.resume a {
     background-image: url("../img/social/icon_resume.png"); }
   .social-icons li.flickr a {
     background-image: url("../img/social/icon_flickr.png"); }
   .social-icons li.github a {
-    background-image: url("../img/social/icon_github.png"); }
+    background-image: url("../img/social/icon_github.png");
+	}
