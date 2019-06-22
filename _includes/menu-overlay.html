@@ -1,0 +1,26 @@
+<div class="menu-overlay">
+  <a class="menu-close-button" title="Close menu" href="#">&times;</a>
+
+  <div class="menu-list">
+    {% for item in site.data.nav %}
+      {% if item.section_id == page.section_id %}
+        {% assign active_class = "active" %}
+      {% else %}
+        {% assign active_class = "" %}
+      {% endif %}
+      {% if item.target %}
+        {% assign target = ' target="_blank"' %}
+      {% endif %}
+
+      <div class="{{active_class}}">
+        {% if item.internal_path %}
+          <a class="page-link" href="{{site.baseurl}}{{ item.internal_path }}"{{target}}>{{ item.name }}</a>
+        {% elsif item.external_path %}
+          <a class="page-link" href="{{ item.external_path }}"{{target}}>{{ item.name }}</a>
+        {% else %}
+          <a class="page-link" href="{{site.baseurl}}/{{ item.path }}"{{target}}>{{ item.name }}</a>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div>

@@ -4,9 +4,16 @@
   {% include head.html %}
 
   <body{% if page.layout %} class="{{ page.layout }}"{% endif %}>
+
+
+  {% include menu-overlay.html %}
+
+
     <div class="col page-content">
       {% include contact-links.html %}
       {{ content }}
     </div>
+
+  {% include foot.html %}
   </body>
 </html>

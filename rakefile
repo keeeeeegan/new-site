@@ -1,0 +1,11 @@
+desc 'build and watch for dev'
+task :dev do
+  sh "bundle exec jekyll serve --livereload"
+end
+
+desc 'Build for deploy'
+task :build_for_deploy do
+  # right now this just runs build
+  # but we could put some more post-processing scripts in here
+  sh "JEKYLL_ENV=production bundle exec jekyll build"
+end

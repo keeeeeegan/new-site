@@ -1,0 +1,6 @@
+- name: Home
+  internal_path: /
+- name: About
+  internal_path: /about
+- name: Contact
+  internal_path: /contact

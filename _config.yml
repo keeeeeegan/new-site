@@ -25,10 +25,6 @@ ga_property: "UA-26787049-1"
 # Build settings
 markdown: kramdown
 
-# Plugins
-plugins:
-  - jekyll-admin
-
 # Collections (work)
 collections:
   work:
