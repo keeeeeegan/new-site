@@ -3,11 +3,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     var privateMenuVisible = false;
     var privateMenuContainer;
+    var privateBodySelector;
 
     function publicInit() {
       console.log('init');
 
       privateMenuContainer = document.querySelector('.menu-overlay');
+      privateBodySelector = document.querySelector('body');
 
       privateMenuClickListener();
     }
@@ -40,10 +42,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     function privateShowMenu() {
       privateMenuContainer.style.display = "block";
+      privateBodySelector.classList.add('noscroll');
     }
 
     function privateHideMenu() {
       privateMenuContainer.style.display = "none";
+      privateBodySelector.classList.remove('noscroll');
     }
 
     return {
