@@ -2,5 +2,7 @@
   internal_path: /
 - name: About
   internal_path: /about
+- name: Web Portfolio
+  external_path: https://portfolio.keeganberry.com
 - name: Contact
   internal_path: /contact

@@ -11,14 +11,17 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "/" # the base hostname & protocol for your site
 
+position_title: "full-stack web developer"
+
 twitter_username: keegan
 instagram_url: http://keeganberry.com/instagram.html
 flickr_urlname: superdeathsquid
 linkedin_profile_url: https://www.linkedin.com/in/keegan-berry-5528a713
 github_username:  keeeeeegan
 github_url: https://github.com/keeeeeegan/new-site
+dribbble: https://dribbble.com/keeganberry
 
-contact_form_action: http://formspree.io/keeganberry@gmail.com
+contact_form_action: https://formspree.io/keeganberry@gmail.com
 
 ga_property: "UA-26787049-1"
 

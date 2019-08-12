@@ -1,6 +1,8 @@
 html {
   -webkit-font-smoothing: antialiased;
-  background: $color-main;
+
+  background: $color-main; //the boring gray one
+
 
   // @media (max-width: $break-sm-max) {
   // background: $color-rust;
@@ -91,14 +93,14 @@ a:hover {
   width: 100%;
   margin-top: 4rem;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
 
   a {
     flex: 1;
     color: #000;
     text-decoration: none;
     font-family: $font-other;
-    font-weight: bold;
+    // font-weight: bold;
 
     &:hover {
       color: #636363;
@@ -107,9 +109,26 @@ a:hover {
 }
 
 @media (max-width: $break-sm-max) {
+  .menu-list {
+    font-size: 2rem;
+  }
   .menu-overlay .menu-close-button {
     right: 2rem;
     top: 3rem;
     font-size: 4rem;
   }
 }
+
+
+
+
+// snot theme:
+//
+// html {
+//   background: #b6bf58;
+// }
+//
+// html body .page-content {
+//   background: #cddc39;
+//   color: #333;
+// }

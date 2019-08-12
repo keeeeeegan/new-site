@@ -2,7 +2,8 @@
 layout: page
 title: Resume
 link_text: Resume
-permalink: /resume/
+permalink: /download-resume/
+published: false
 ---
 
 Download a PDF version of my resume below.

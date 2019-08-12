@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body{% if page.layout %} class="{{ page.layout }}"{% endif %}>
+  <body{% if page.layout or page.centercontent %} class="{{ page.title | slugify }} {{ page.layout }}{% if page.centercontent %} centercontent {% endif %}"{% endif %}>
 
 
   {% include menu-overlay.html %}
